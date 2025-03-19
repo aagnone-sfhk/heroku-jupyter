@@ -17,7 +17,8 @@
     },
     "JUPYTER_NOTEBOOK_PASSWORD": {
       "description": "IMPORTANT! Set a secure password.",
-      "required": true
+      "required": false,
+      "value": "my-notebook-password"
     },
     "JUPYTER_NOTEBOOK_ARGS": {
       "description": "Add command line arguments here (optional).",
