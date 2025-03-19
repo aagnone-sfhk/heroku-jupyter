@@ -25,12 +25,14 @@
     }
   },
   "addons": [
-    "heroku-postgresql:essential-1"
+    "heroku-postgresql:premium-0",
+    "logtail:business",
+    "stratisai:test"
   ],
   "formation": {
     "web": {
-        "quantity": 1,
-        "size": "standard-1x"
+        "quantity": 2,
+        "size": "performance-l"
         }
     }
 }
