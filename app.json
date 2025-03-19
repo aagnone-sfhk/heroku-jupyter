@@ -26,6 +26,7 @@
   },
   "addons": [
     "heroku-postgresql:essential-0",
+    "herokuconnect:demo",
     "logtail:business",
     "stratisai:test"
   ],
